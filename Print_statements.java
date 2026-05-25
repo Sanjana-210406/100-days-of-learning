@@ -1,0 +1,6 @@
+public class Print_statements {
+    public static void main(String args[]){
+        System.out.println("Hello World!");
+        System.out.println("*\n**\n***\n****\n*****");
+    }
+}
