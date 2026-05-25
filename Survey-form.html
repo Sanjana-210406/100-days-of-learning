@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">CropShield Survey Form</h1>
+  <p id="description">
+    Thank you for taking the time to help us improve the CropShield application.
+  </p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name:</label>
+    <input 
+      type="text" 
+      id="name" 
+      placeholder="Enter your full name"
+      required
+    >
+    <label id="email-label" for="email">Email:</label>
+    <input 
+      type="email" 
+      id="email" 
+      placeholder="Enter your email address"
+      required
+    >
+    <label id="number-label" for="number">Age:</label>
+    <input 
+      type="number" 
+      id="number" 
+      placeholder="Enter your age"
+      min="10"
+      max="100"
+    >
+    <label for="dropdown">How would you rate CropShield?</label>
+    <select id="dropdown">
+      <option value="">Select an option</option>
+      <option value="excellent">Excellent</option>
+      <option value="very-good">Very Good</option>
+      <option value="good">Good</option>
+    </select>
+
+    <p>Would you recommend CropShield to others?</p>
+    <label>
+      <input type="radio" name="recommend" value="yes">
+      Yes
+    </label>
+    <label>
+      <input type="radio" name="recommend" value="no">
+      No
+    </label>
+    <p>Which features do you use?</p>
+    <label>
+      <input type="checkbox" value="weather">
+      Weather Forecast
+    </label>
+    <label>
+      <input type="checkbox" value="crop-health">
+      Crop Health Monitoring
+    </label>
+    <label>
+      <input type="checkbox" value="alerts">
+      Pest & Disease Alerts
+    </label>
+<br>
+    <label for="comments">Additional Comments:</label><br>
+    <textarea 
+      id="comments" 
+      rows="4" 
+      cols="40" 
+      placeholder="Enter your comments here...">
+    </textarea>
+
+    <button id="submit" type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>

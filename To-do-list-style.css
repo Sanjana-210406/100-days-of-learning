@@ -1,0 +1,18 @@
+a:link{
+  color:black;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:red;
+}
+a:focus{
+  outline:2px solid green;
+}
+a:active{
+  color:pink;
+}
+a{
+  text-decoration:none;
+}
